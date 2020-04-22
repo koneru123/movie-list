@@ -1,0 +1,8 @@
+.movieListContainer {
+    padding-left: 0px;
+}
+.movieTitle {
+    list-style: none;
+    padding:20px;
+    border: 1px solid grey;
+}

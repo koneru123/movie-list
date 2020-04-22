@@ -5,12 +5,24 @@
   "author": "Hack Reactor <curriculum.team@hackreactor.com>",
   "license": "UNLICENSED",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "start": "live-server",
+    "react-dev": "npx babel src --out-dir dist --presets @babel/preset-react --source-maps inline --watch"
+  },
   "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
     "jquery": "^2.2.1",
     "lodash": "^4.6.1",
-    "react": "^16.8.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4"
+  }
 }

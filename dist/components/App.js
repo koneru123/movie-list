@@ -1,0 +1,18 @@
+import MovieList from './MovieList.js';
+import mockData from './mockData.js';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Movie List App")), /*#__PURE__*/React.createElement(MovieList, {
+      movies: mockData
+    }));
+  }
+
+}
+
+export default App;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb21wb25lbnRzL0FwcC5qc3giXSwibmFtZXMiOlsiTW92aWVMaXN0IiwibW9ja0RhdGEiLCJBcHAiLCJSZWFjdCIsIkNvbXBvbmVudCIsImNvbnN0cnVjdG9yIiwicHJvcHMiLCJyZW5kZXIiXSwibWFwcGluZ3MiOiJBQUNBLE9BQU9BLFNBQVAsTUFBc0IsZ0JBQXRCO0FBQ0EsT0FBT0MsUUFBUCxNQUFxQixlQUFyQjs7QUFFQSxNQUFNQyxHQUFOLFNBQWtCQyxLQUFLLENBQUNDLFNBQXhCLENBQWtDO0FBQzlCQyxFQUFBQSxXQUFXLENBQUNDLEtBQUQsRUFBUTtBQUNmLFVBQU1BLEtBQU47QUFDSDs7QUFDREMsRUFBQUEsTUFBTSxHQUFHO0FBQ0wsd0JBQ0ksOENBQ0ksOENBQUssaURBQUwsQ0FESixlQUVJLG9CQUFDLFNBQUQ7QUFBVyxNQUFBLE1BQU0sRUFBRU47QUFBbkIsTUFGSixDQURKO0FBTUg7O0FBWDZCOztBQWNsQyxlQUFlQyxHQUFmIiwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgTW92aWVMaXN0IGZyb20gJy4vTW92aWVMaXN0LmpzJztcbmltcG9ydCBtb2NrRGF0YSBmcm9tICcuL21vY2tEYXRhLmpzJztcblxuY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgICAgICBzdXBlcihwcm9wcylcbiAgICB9XG4gICAgcmVuZGVyKCkge1xuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgIDxkaXY+PGgxPk1vdmllIExpc3QgQXBwPC9oMT48L2Rpdj5cbiAgICAgICAgICAgICAgICA8TW92aWVMaXN0IG1vdmllcz17bW9ja0RhdGF9Lz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICApXG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBcHA7Il19
