@@ -6,3 +6,11 @@
     padding:20px;
     border: 1px solid grey;
 }
+.moviesSearchContainer input {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+}
+.goBtn {
+    font-size: 13px;
+}
